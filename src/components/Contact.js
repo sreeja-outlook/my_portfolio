@@ -153,11 +153,11 @@ const Contact = () => {
             <div className="contact-links">
               <a href="mailto:your.email@example.com" className="contact-link">
                 <FiMail className="contact-icon" />
-                <span>your.email@example.com</span>
+                <span>chakrabortysreeja15@outlook.com</span>
               </a>
-              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="contact-link">
+              <a href="https://github.com/sreeja-outlook" target="_blank" rel="noopener noreferrer" className="contact-link">
                 <FiGithub className="contact-icon" />
-                <span>github.com/yourusername</span>
+                <span>github.com/sreeja-outlook</span>
               </a>
               <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="contact-link">
                 <FiLinkedin className="contact-icon" />
