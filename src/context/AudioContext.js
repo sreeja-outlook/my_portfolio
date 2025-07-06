@@ -6,7 +6,7 @@ export const AudioContext = createContext();
 
 export const AudioProvider = ({ children }) => {
   const [volume, setVolume] = useState(0.5);
-  const [play, { pause, stop }] = useSound(musicTrack, {
+  const [play, { pause }] = useSound(musicTrack, {
     volume: volume,
     loop: true,
   });
