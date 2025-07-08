@@ -31,10 +31,12 @@ const About = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <div className="image-wrapper">
-              {/* Replace with actual image */}
-              <div className="placeholder-image">
-                <span>SK</span>
-              </div>
+              <img
+                src={require('../assets/half photo blazer pora.jpg')}
+                alt="Profile"
+                className="profile-image"
+                style={{ width: '100%', height: 'auto', borderRadius: '10px' }}
+              />
             </div>
           </motion.div>
           
@@ -45,7 +47,7 @@ const About = () => {
             transition={{ duration: 0.6, delay: 0.3 }}
           >
             <p className="about-bio">
-              As a Full Stack Developer Intern at Naiyo24 Pvt. Ltd. and BCA student at Techno Main Salt Lake, 
+              As a Former Full Stack Developer Intern at Naiyo24 Pvt. Ltd. and BCA student at Techno Main Salt Lake, 
               I bring together technical expertise with a diverse background in sports and music. This unique combination 
               allows me to approach problem-solving with both analytical precision and creative thinking.
             </p>
@@ -62,7 +64,7 @@ const About = () => {
               <div className="highlight-item">
                 <div className="highlight-icon">💻</div>
                 <div className="highlight-text">
-                  <h4>Full Stack Intern</h4>
+                  <h4>Former Full Stack Intern</h4>
                   <p>Naiyo24 Pvt. Ltd.</p>
                 </div>
               </div>

@@ -9,12 +9,12 @@ const Skills = () => {
   });
 
   const technicalSkills = [
-    { name: 'JavaScript', level: 85 },
-    { name: 'React.js', level: 80 },
-    { name: 'Node.js', level: 75 },
+    { name: 'JavaScript', level: 70 },
+    { name: 'React.js', level: 87 },
+    { name: 'c/c++/Java/Python', level: 55 },
     { name: 'HTML/CSS', level: 90 },
-    { name: 'MongoDB', level: 70 },
-    { name: 'Express.js', level: 75 },
+    { name: 'Flask', level: 80 },
+    { name: 'Flutter', level: 65 },
   ];
 
   const softSkills = [

@@ -159,9 +159,9 @@ const Contact = () => {
                 <FiGithub className="contact-icon" />
                 <span>github.com/sreeja-outlook</span>
               </a>
-              <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="contact-link">
+              <a href="https://www.linkedin.com/in/sreeja-chakraborty-a19a33257/" target="_blank" rel="noopener noreferrer" className="contact-link">
                 <FiLinkedin className="contact-icon" />
-                <span>linkedin.com/in/yourusername</span>
+                <span>linkedin.com/in/sreeja-chakraborty</span>
               </a>
             </div>
           </motion.div>
@@ -172,6 +172,7 @@ const Contact = () => {
         <div className="container">
           <div className="footer-content">
             <p>&copy; {new Date().getFullYear()} Sreeja Chakraborty. All rights reserved.</p>
+            <p>Website created and maintained by Sreeja Chakraborty</p>
           </div>
         </div>
       </footer>

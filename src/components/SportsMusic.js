@@ -17,8 +17,6 @@ const SportsMusic = () => {
       icon: '🏓',
       achievements: [
         'State-level competitor',
-        'College team captain',
-        'Tournament organizer'
       ]
     },
     {
@@ -29,8 +27,8 @@ const SportsMusic = () => {
       icon: '🏊‍♀️',
       achievements: [
         'Certified swimming instructor',
-        'Trained over 50 students',
-        'Specializing in freestyle and butterfly strokes'
+        'Trained over 100 students',
+        'Specializing in freestyle and backstroke'
       ]
     },
     {
@@ -42,7 +40,6 @@ const SportsMusic = () => {
       achievements: [
         'Collaborative artist',
         'Digital production',
-        'Live performances'
       ]
     }
   ];

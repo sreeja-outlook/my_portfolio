@@ -11,6 +11,27 @@ import SportsMusic from './components/SportsMusic';
 import Contact from './components/Contact';
 import './styles/global.css';
 
+function ScrollIndicator() {
+  const [scrollWidth, setScrollWidth] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY;
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const scrolled = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+      setScrollWidth(scrolled);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  return (
+    <div className="scroll-indicator-container">
+      <div className="scroll-indicator-bar" style={{ width: `${scrollWidth}%` }}></div>
+    </div>
+  );
+}
+
 function App() {
   const [loading, setLoading] = useState(true);
 
@@ -26,6 +47,7 @@ function App() {
   return (
     <ThemeProvider>
       <AudioProvider>
+        <ScrollIndicator />
         <AnimatePresence mode="wait">
           {loading ? (
             <motion.div 
